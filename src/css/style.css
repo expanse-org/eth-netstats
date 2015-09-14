@@ -8,6 +8,7 @@ body {
 	font-smooth: auto;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+    background-image: url("http://www.expanse.tech/images/the-depths-of-the-universe.jpg");
 }
 
 table td {
