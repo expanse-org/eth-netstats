@@ -8,11 +8,6 @@ body {
 	font-smooth: auto;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-background: url(http://www.expanse.tech/images/the-depths-of-the-universe.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 
 table td {
@@ -85,7 +80,7 @@ table td {
 }
 
 .stat-holder {
-	background: rgba(0, 0, 0, 0.66);
+	background: #090909;
 	border: 1px solid rgba(255,255,255,0.05);
 }
 

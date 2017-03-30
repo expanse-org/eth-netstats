@@ -1,6 +1,6 @@
 {
   "name": "eth-netstats",
-  "description": "Expanse Network Intelligence dashboard",
+  "description": "Ethereum Network Intelligence dashboard",
   "version": "0.0.9",
   "private": true,
   "engines": {

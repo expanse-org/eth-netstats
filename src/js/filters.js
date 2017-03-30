@@ -132,7 +132,7 @@ angular.module('netStatsApp.filters', [])
 		{
 			var tmp = version.split('/');
 
-			tmp[0] = tmp[0].replace('Expanse(++)', 'Eth');
+			tmp[0] = tmp[0].replace('Ethereum(++)', 'Eth');
 
 			if(tmp[0].indexOf('pyethapp') === 0)
 			{
@@ -660,13 +660,13 @@ function timeClass(timestamp)
 
 function blockTimeClass(diff)
 {
-	if(diff <= 60)
+	if(diff <= 13)
 		return 'text-success';
 
-	if(diff <= 120)
+	if(diff <= 20)
 		return 'text-warning';
 
-	if(diff <= 180)
+	if(diff <= 30)
 		return 'text-orange';
 
 	return 'text-danger'
